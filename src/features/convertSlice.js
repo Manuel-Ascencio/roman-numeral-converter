@@ -85,7 +85,6 @@ export const convertSlice = createSlice({
         return roman;
       }
       let result = convertToRoman(value.payload);
-      console.log(result);
       state.value = result;
     },
   },
